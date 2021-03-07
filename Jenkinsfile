@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'git@github.com:farsad2020/Project1Devops.git', branch: 'main', credentialsId: 'github-ssh-key'])
+        git([url: 'https://github.com/farsad2020/Project1Devops.git', branch: 'main'])
 
       }
     }
